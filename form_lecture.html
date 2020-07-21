@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <form action="/create_user">            
+            <p>
+                username: <input tyep="text" name="username" id="username">
+                <!-- id used for css, name used for backend -->
+            </p>
+            <p>
+                password: <input type="password" name="password" id="password">
+            </p>
+
+            <p>
+                sean?: <input type="checkbox" name="checkbox" id="checkbox">
+            </p>
+            <p>
+                <input type="date" name="date" id="date">
+            </p>
+            <p>
+                <input type="color" name="color" id="color">
+            </p>
+            <p>
+                <input type="number" name="number" id="number" min="0" max="10" size="10">
+            </p>
+            <p>
+                <select name="choice" id="choice">
+                    <option value="sean">Sean</option>
+                    <option value="yoori">Yoori</option>
+                    <option value="someone">someone</option>
+                </select>
+            </p>
+            <p>
+                Health Status<input type="radio" name="healthy" id="healthy">
+            </p>
+            <p>
+                <button>Submit</button>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
